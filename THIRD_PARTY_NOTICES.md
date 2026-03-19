@@ -10,6 +10,12 @@ https://github.com/Facepunch/Facepunch.Steamworks
 
 ---
 
+## Standalone File Browser
+License: MIT
+https://github.com/gkngkc/UnityStandaloneFileBrowser
+
+---
+
 ## DOTween (Free Version)
 License: MIT
 http://dotween.demigiant.com/
