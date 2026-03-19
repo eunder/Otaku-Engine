@@ -49,7 +49,6 @@ https://www.khronos.org/openxr/
 ## TinyTexturePack - Screaming Brain Studios
 License: CC0 1.0 / Public Domain
 Source: https://screamingbrainstudios.itch.io
-Official CC0 info: https://creativecommons.org/publicdomain/zero/1.0/
 
 ---
 
