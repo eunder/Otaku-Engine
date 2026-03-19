@@ -1,0 +1,1194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8033717303011515888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8033717303011515889}
+  m_Layer: 0
+  m_Name: WHEELLIST_EventEditingTools
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8033717303011515889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8033717303011515888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 43.22469, y: 2.3181584, z: -33.743767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3226135330596238174}
+  - {fileID: 2802511181136118173}
+  - {fileID: 5761392736772181903}
+  - {fileID: 3101007375291400549}
+  - {fileID: 3126039551418530833}
+  - {fileID: 9002071654013294327}
+  - {fileID: 5775350403997453135}
+  - {fileID: 778601449422010437}
+  - {fileID: 7746025741587338017}
+  - {fileID: 3956891069017453733}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &886192646423400626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b087628b5a0c87a4fb0625e310ca87bb, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!1 &5761392736772181900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 886192646423400626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4717245954132918467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761392736772181900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6316579508266860831}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5504122144790412109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761392736772181900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Dialogue Choice
+  objectTips: []
+--- !u!114 &6316579508266860831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761392736772181900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: c70a79a0daac690459bde79d48c5b7a9, type: 3}
+--- !u!224 &5761392736772181903 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 886192646423400626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1413810568210306162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f9fe3000a5d77c4a8df28c62668251f, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Date
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!1 &5775350403997453132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 1413810568210306162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3602115080092920709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5775350403997453132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5251962049596421426}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5251962049596421426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5775350403997453132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: 68a116bdec94a404a9fc17df3463a41c, type: 3}
+--- !u!114 &8689222691338642596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5775350403997453132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Date - Keep track of realtime and trigger calender events.
+  objectTips:
+  - You have to manually trigger the time check. Using a custom timer to constantly
+    check might be useful
+--- !u!224 &5775350403997453135 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 1413810568210306162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2938492036957555740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 91de59a8cd444da4b9cbbd4234e8c9d9, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &7746025741587338017 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 2938492036957555740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7746025741587338018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 2938492036957555740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3069389234852875798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746025741587338018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: 86c6a35df5a18224490bff0898af9e56, type: 3}
+--- !u!114 &5589866576308079686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746025741587338018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3069389234852875798}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8216886228848465804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746025741587338018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Variable Pointer - Set values of local and global variables with this.
+  objectTips:
+  - The game will automatically write to the save file whenever the global enitity
+    is modified
+  - Local map variables get reset when you leave the map.
+--- !u!1001 &4563623986140826058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8dd866aad92fa5e4fb81e024f0a1adc1, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!1 &9002071654013294324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 4563623986140826058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4370602666258283574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002071654013294324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8497074363002027034}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7389851157246786939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002071654013294324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Path - This is how you make things move in this game. <color=red>(experimental
+    and buggy)
+  objectTips:
+  - Split Up long routes into multiple paths for easier management.
+  - Red arrow points "forward". Blue arrow points "up"
+--- !u!114 &8497074363002027034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9002071654013294324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 7173286248103894531, guid: 6cb58c6f2ce32c548a4b62818ab98bd5, type: 3}
+--- !u!224 &9002071654013294327 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 4563623986140826058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5293649635411502968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3dbfa26e8d418e3408fe9ae2745da0b9, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &778601449422010437 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 5293649635411502968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &778601449422010438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 5293649635411502968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2816286896242579447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778601449422010438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8248381081051548851}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4304070921545711194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778601449422010438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Player Mover - Used for setting player position, rotation, and speed
+  objectTips: []
+--- !u!114 &8248381081051548851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778601449422010438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: 4a13e5c43ea3f094b93503bc65604c54, type: 3}
+--- !u!1001 &7303838853320597152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2527d36491788af47b9ef0544c2c0a4e, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &2802511181136118173 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7303838853320597152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2802511181136118174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7303838853320597152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1994741095411498982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2802511181136118174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3183879586864601446}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3183879586864601446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2802511181136118174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: b35662067b0aaea4ca69ff588615071d, type: 3}
+--- !u!114 &7538395553179750186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2802511181136118174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Dialogue - add narration to your map
+  objectTips:
+  - Use very short audio clips to create a cartoon voice
+  - You can display a counter's value by typing '<your_counter_name>'in the dialogue"
+--- !u!1001 &7543540818987933272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a84c024fe43bd741adcc7706c9361ef, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &3101007375291400549 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7543540818987933272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3101007375291400550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7543540818987933272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1614493807434689244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101007375291400550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: AudioSource
+  objectTips:
+  - This is useful for making maps feel more alive
+  - 2D means it ca be heard globaly
+  - 3D means "sorround sound"
+--- !u!114 &3557699141832971814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101007375291400550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8512151640606126547}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8512151640606126547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101007375291400550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: e0557de3ce7bf1c46920135750de2e46, type: 3}
+--- !u!1001 &7555100394128171820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eb1723f7fec9701409ab4e912839e69e, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &3126039551418530833 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7555100394128171820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3126039551418530834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 7555100394128171820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4045566295571337109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126039551418530834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Counter
+  objectTips: []
+--- !u!114 &5651077181738637091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126039551418530834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: 9bc553d3f707ace4b89d6d2ba8fac4bf, type: 3}
+--- !u!114 &6038360582049731068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126039551418530834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5651077181738637091}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &8033717304555842659
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cab9eb3528a126743a9f7d7246cd25f7, type: 3}
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: a0287303a1e45494c8dc19fb6a3ba43a, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!1 &3226135330596238173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 8033717304555842659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3024059223757449980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3226135330596238173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4706348514648394804}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_OpenNewMenu, Assembly-CSharp
+        m_MethodName: OpenNewList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4706348514648394804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3226135330596238173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7cb3d42a8912804aa8d9ea777d9ac82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuObjectList: {fileID: 8033717303011515888, guid: 11a8718d28f2af341b50b9f05105dd2e, type: 3}
+--- !u!224 &3226135330596238174 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 8033717304555842659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8453613674580437912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 8033717303011515889}
+    m_Modifications:
+    - target: {fileID: 4879922529301634875, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e0c4029fda9099e42a43f59ac34ba080, type: 3}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_Name
+      value: Button (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183254679624206204, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+      propertyPath: audioClip_closestObj
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab37ff14a398f1478b59c9e58453e86, type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+--- !u!224 &3956891069017453733 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634877, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 8453613674580437912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3956891069017453734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879922529301634878, guid: bc9938bd051c91e4f888c4f1e1bc1f84, type: 3}
+  m_PrefabInstance: {fileID: 8453613674580437912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2887446901928113129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956891069017453734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0534c72d8ecb654ab5b3c63cd245bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabToSpawn: {fileID: 4658315166084359569, guid: cd31e0f8dd4e7594c9659db700660544, type: 3}
+--- !u!114 &5670839639190069374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956891069017453734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75bdd4a5b547a4eb08952b1a715383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2887446901928113129}
+        m_TargetAssemblyTypeName: WheelPickerButtonEvent_SpawnObject, Assembly-CSharp
+        m_MethodName: SpawnNewlyBoughtObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8801672868076192513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956891069017453734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ba9a846ffc02649ab02e95120c8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Prefab Entity - Load content from another map onto this position
+  objectTips:
+  - All objects loaded will be parented to the prefab entity
+  - Useful for when you want to use the same content in several maps
+  - 'Beware, events rely on a hidden ID... '
+  - If you want to reuse the same DO entity... then copy and paste the exact same
+    entity.
+  - Be careful of prefabs that call another prefab... this may lead to confusion

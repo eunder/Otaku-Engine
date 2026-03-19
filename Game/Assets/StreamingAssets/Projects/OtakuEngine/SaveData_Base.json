@@ -1,0 +1,194 @@
+{
+    "gameVersion": "",
+    "shadowIntensity": -10.0,
+    "lightIntensity": 1.7000000476837159,
+    "shadowColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "lightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "skyboxTopColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxMidColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxBotColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyBoxExp": 0.10000000149011612,
+    "musicTrackPath": "",
+    "globalSkyboxMediaPath": "",
+    "globalSkyboxMedia_UVScaleX": 1.0,
+    "globalSkyboxMedia_UVScaleY": 1.0,
+    "globalSkyboxMedia_UVOffsetX": 0.0,
+    "globalSkyboxMedia_UVOffsetY": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollX": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollY": 0.0,
+    "fog_isOn": false,
+    "fog_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "fog_Start": 5.0,
+    "fog_End": 50.0,
+    "bloom_isOn": false,
+    "bloom_intensity": 10.479999542236329,
+    "bloom_threshold": 1.1299999952316285,
+    "bloom_color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "bloom_softKnee": 0.5,
+    "bloom_diffusion": 7.0,
+    "dof_isOn": false,
+    "dof_maxFocusDistance": 20.0,
+    "ao_isOn": false,
+    "vertexSnapping": false,
+    "AIMonsterMediaPath": "SA:monster.png",
+    "allLevelMaterials": [],
+    "allLevelBlocks": [],
+    "allLevelPosters": [],
+    "allLevelDoors": [],
+    "allLevelBasicItems": [],
+    "allLevelDialogue": [],
+    "allLevelAudioSources": [],
+    "allLevelCounters": [
+        {
+            "id": "64099d16-be4a-43bc-95a9-9e255d7edc11",
+            "note": "playerAge",
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "currentCount_default": 0,
+            "currentCount": 0,
+            "events": []
+        }
+    ],
+    "allLevelStrings": [
+        {
+            "id": "0896be27-e554-40b2-a543-5a98179415ed",
+            "note": "currentMap",
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "currentString_default": "About",
+            "currentString": "About",
+            "events": []
+        },
+        {
+            "id": "966e2797-ffe3-4376-9154-da6b1746dd07",
+            "note": "playerName",
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "currentString_default": "NEET",
+            "currentString": "NEET",
+            "events": []
+        },
+        {
+            "id": "ae25acfa-4cb0-4f40-865c-72d59b2587ef",
+            "note": "!playerMoverToSpawnOn",
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "currentString_default": "",
+            "currentString": "",
+            "events": []
+        },
+        {
+            "id": "e7ca2ad3-e154-45f9-b82d-bfc0e2ccd54d",
+            "note": "gamePart",
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "currentString_default": "",
+            "currentString": "",
+            "events": []
+        }
+    ],
+    "allLevelStates": [],
+    "allLevelPaths": [],
+    "allLevelChildPaths": [],
+    "allPlayerMovers": [],
+    "allGlobalEntityPointers": [],
+    "allLevelDates": [],
+    "allLevelLights": [],
+    "allLevelPrefabs": [],
+    "globalEvents": []
+}

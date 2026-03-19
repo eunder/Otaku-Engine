@@ -1,0 +1,408 @@
+{
+    "gameVersion": "8-4-2024",
+    "shadowIntensity": -1.9152545928955079,
+    "lightIntensity": 1.7000000476837159,
+    "shadowColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "lightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "skyboxTopColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxMidColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxBotColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyBoxExp": 0.10000000149011612,
+    "musicTrackPath": "",
+    "globalSkyboxMediaPath": "Incorrect File Type",
+    "globalSkyboxMedia_UVScaleX": 1.0,
+    "globalSkyboxMedia_UVScaleY": 1.0,
+    "globalSkyboxMedia_UVOffsetX": 0.0,
+    "globalSkyboxMedia_UVOffsetY": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollX": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollY": 0.0,
+    "fog_isOn": false,
+    "fog_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "fog_Start": 5.0,
+    "fog_End": 50.0,
+    "bloom_isOn": false,
+    "bloom_intensity": 10.479999542236329,
+    "bloom_threshold": 1.1299999952316285,
+    "bloom_color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "bloom_softKnee": 0.5,
+    "bloom_diffusion": 7.0,
+    "dof_isOn": false,
+    "dof_maxFocusDistance": 20.0,
+    "ao_isOn": false,
+    "vertexSnapping": false,
+    "AIMonsterMediaPath": "SA:monster.png",
+    "allLevelMaterials": [],
+    "allLevelBlocks": [
+        {
+            "id": "b16b7082-2425-44bd-93d9-143ffcdd3d55",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": 0.0,
+                "y": -0.5000002384185791,
+                "z": 0.0
+            },
+            "originalPivot": {
+                "x": 0.0,
+                "y": 2.384185791015625e-7,
+                "z": 0.0
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "idOfParent": "",
+            "childIndex": 0,
+            "children": [],
+            "isTrigger": false,
+            "isScannable": false,
+            "ignorePlayer": false,
+            "ignorePlayerClick": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "6153d977-805a-4643-a3bb-bf0c7dc75405",
+            "materialName_yneg": "6153d977-805a-4643-a3bb-bf0c7dc75405",
+            "materialName_x": "646e2328-1673-4642-b569-0912dd0b1c2d",
+            "materialName_xneg": "646e2328-1673-4642-b569-0912dd0b1c2d",
+            "materialName_z": "646e2328-1673-4642-b569-0912dd0b1c2d",
+            "materialName_zneg": "646e2328-1673-4642-b569-0912dd0b1c2d",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": 2.0,
+                    "y": 0.0,
+                    "z": 2.0
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": 2.0,
+                    "y": 0.0,
+                    "z": -2.0
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -2.0,
+                    "y": 0.0,
+                    "z": 2.0
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -2.0,
+                    "y": 0.0,
+                    "z": -2.0
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": 2.0,
+                    "y": -1.0000004768371583,
+                    "z": 2.0
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": 2.0,
+                    "y": -1.0000004768371583,
+                    "z": -2.0
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -2.0,
+                    "y": -1.0000004768371583,
+                    "z": 2.0
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -2.0,
+                    "y": -1.0000004768371583,
+                    "z": -2.0
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        }
+    ],
+    "allLevelPosters": [
+        {
+            "id": "646e2328-1673-4642-b569-0912dd0b1c2d",
+            "note": "dev_sides",
+            "idOfParent": "",
+            "childIndex": 1,
+            "children": [],
+            "isActive": true,
+            "imageUrl": "SA:\\Textures\\Toon\\dev_orange.png",
+            "_color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "areaWidth": 0.5,
+            "areaHeight": 0.5,
+            "posterPos": {
+                "x": -3.0625,
+                "y": 0.5323072671890259,
+                "z": 0.7632617950439453
+            },
+            "posterRot": {
+                "x": -0.5000000596046448,
+                "y": -0.5,
+                "z": -0.5,
+                "w": 0.5000000596046448
+            },
+            "allPosterFrames": [],
+            "allPosterDepthLayers": [],
+            "isBillboard": false,
+            "isCharacterBillboard": false,
+            "scrollingMode": "locked",
+            "alignmentMode": "fit",
+            "zoomForcedOffset": 0.0,
+            "rotationEffectAmount": 0.0,
+            "canZoom": false,
+            "extraBorder": 0.0,
+            "inverseLook": false,
+            "colorKey": {
+                "r": 0.0,
+                "g": 1.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "colorKey_threshold": 0.0,
+            "transparencyThreshold": 0.0,
+            "spillCorrection": 0.0,
+            "shaderName": "Shader Graphs/UnlitTransparentDither",
+            "textureFiltering": false,
+            "scrollSpeed": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "footstepSoundPath": "",
+            "xray_Size": 0.0,
+            "xray_Transparency": 1.0,
+            "xray_Softness": 0.0,
+            "isScannable": false,
+            "events": []
+        },
+        {
+            "id": "6153d977-805a-4643-a3bb-bf0c7dc75405",
+            "note": "dev_top",
+            "idOfParent": "",
+            "childIndex": 71,
+            "children": [],
+            "isActive": true,
+            "imageUrl": "SA:\\Textures\\Toon\\dev_gray.png",
+            "_color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "areaWidth": 0.5,
+            "areaHeight": 0.5,
+            "posterPos": {
+                "x": -3.0625,
+                "y": 0.5323071479797363,
+                "z": -0.4242382049560547
+            },
+            "posterRot": {
+                "x": -0.5000000596046448,
+                "y": -0.5,
+                "z": -0.5,
+                "w": 0.5000000596046448
+            },
+            "allPosterFrames": [],
+            "allPosterDepthLayers": [],
+            "isBillboard": false,
+            "isCharacterBillboard": false,
+            "scrollingMode": "locked",
+            "alignmentMode": "fit",
+            "zoomForcedOffset": 0.0,
+            "rotationEffectAmount": 0.0,
+            "canZoom": false,
+            "extraBorder": 0.0,
+            "inverseLook": false,
+            "colorKey": {
+                "r": 0.0,
+                "g": 1.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "colorKey_threshold": 0.0,
+            "transparencyThreshold": 0.0,
+            "spillCorrection": 0.0,
+            "shaderName": "Shader Graphs/UnlitTransparentDither",
+            "textureFiltering": false,
+            "scrollSpeed": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "footstepSoundPath": "",
+            "xray_Size": 0.0,
+            "xray_Transparency": 1.0,
+            "xray_Softness": 0.0,
+            "isScannable": false,
+            "events": []
+        }
+    ],
+    "allLevelDoors": [],
+    "allLevelBasicItems": [],
+    "allLevelDialogue": [],
+    "allLevelAudioSources": [],
+    "allLevelCounters": [],
+    "allLevelStrings": [],
+    "allLevelStates": [],
+    "allLevelPaths": [],
+    "allLevelChildPaths": [],
+    "allPlayerMovers": [],
+    "allGlobalEntityPointers": [],
+    "allLevelDates": [],
+    "allLevelLights": [],
+    "allLevelPrefabs": [],
+    "globalEvents": []
+}

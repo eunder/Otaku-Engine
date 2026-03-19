@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Wall
+  - Button
+  - Button_Hold
+  - Item_Shadow
+  - Boundary
+  - NPC
+  - Item_custome
+  - WireCornerNode
+  - Item_Furniture
+  - LevelCustomBlock
+  - Wife
+  - DomeElement
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Item
+  - Boundary
+  - Pixelation
+  - PlayerCapsuleVisible
+  - NPC
+  - TestCanvas
+  - Wire
+  - Player
+  - Level
+  - Case
+  - Gizmo
+  - Trigger
+  - Overlay
+  - Overlay_skybox
+  - LightingBlock
+  - Gizmo_Hidden
+  - IgnorePlayerCollision
+  - IgnorePlayerClick
+  - Overlay_screen
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

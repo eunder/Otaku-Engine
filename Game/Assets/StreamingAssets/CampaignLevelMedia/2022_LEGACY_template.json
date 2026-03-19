@@ -1,0 +1,1020 @@
+{
+    "gameVersion": "3-23-2023",
+    "automaticLighting": false,
+    "shadowIntensity": 1.5,
+    "lightIntensity": 1.7000000476837159,
+    "shadowColor": {
+        "r": 0.10000000149011612,
+        "g": 0.10000000149011612,
+        "b": 0.10000000149011612,
+        "a": 1.0
+    },
+    "lightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "skyboxTopColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxMidColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyboxBotColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "skyBoxExp": 0.10000000149011612,
+    "musicTrackPath": "",
+    "globalSkyboxMediaPath": "Incorrect File Type",
+    "globalSkyboxMedia_UVScaleX": 1.0,
+    "globalSkyboxMedia_UVScaleY": 1.0,
+    "globalSkyboxMedia_UVOffsetX": 0.0,
+    "globalSkyboxMedia_UVOffsetY": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollX": 0.0,
+    "globalSkyboxMedia_UVOffsetScrollY": 0.0,
+    "fog_isOn": false,
+    "fog_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "fog_Start": 5.0,
+    "fog_End": 50.0,
+    "AIMonsterMediaPath": "SA:monster.png",
+    "allLevelMaterials": [],
+    "allLevelBlocks": [
+        {
+            "id": "83197a10-ab7e-4a57-b77c-2fdb42dab4c1",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": -1.0013542175292969,
+                "y": 1.1250882148742676,
+                "z": -1.247039794921875
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.00008280284237116575,
+                "y": -0.7071068286895752,
+                "z": 0.00008280284237116575,
+                "w": 0.7071068286895752
+            },
+            "idOfParent": "",
+            "children": [],
+            "isTrigger": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "Basic - DevTop",
+            "materialName_yneg": "Basic - DevTop",
+            "materialName_x": "Basic - DevSides",
+            "materialName_xneg": "Basic - DevSides",
+            "materialName_z": "Basic - DevSides",
+            "materialName_zneg": "Basic - DevSides",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": -3.501622200012207,
+                    "y": 2.249502658843994,
+                    "z": -0.9970394372940064
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0016102790832519532,
+                    "y": 2.2503225803375246,
+                    "z": -0.9970394372940064
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.5016250610351564,
+                    "y": 2.2495031356811525,
+                    "z": -1.2470403909683228
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0016124248504638672,
+                    "y": 2.2503228187561037,
+                    "z": -1.2470399141311646
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": -3.501096725463867,
+                    "y": -0.0004975795745849609,
+                    "z": -0.9970396757125855
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0010838508605957032,
+                    "y": 0.0003223419189453125,
+                    "z": -0.9970394372940064
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.501099109649658,
+                    "y": -0.0004978179931640625,
+                    "z": -1.2470403909683228
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0010868310928344727,
+                    "y": 0.00032210350036621094,
+                    "z": -1.247040033340454
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        },
+        {
+            "id": "820835b9-2d68-4b8b-919a-b70e2ba003ce",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": -3.375,
+                "y": 1.1250001192092896,
+                "z": 0.0
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "idOfParent": "",
+            "children": [],
+            "isTrigger": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "Basic - DevTop",
+            "materialName_yneg": "Basic - DevTop",
+            "materialName_x": "Basic - DevSides",
+            "materialName_xneg": "Basic - DevSides",
+            "materialName_z": "Basic - DevSides",
+            "materialName_zneg": "Basic - DevSides",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": 2.25,
+                    "z": 1.25
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": 2.250000476837158,
+                    "z": -1.25
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.5,
+                    "y": 2.25,
+                    "z": 1.25
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.5,
+                    "y": 2.250000476837158,
+                    "z": -1.25
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -0.2500002980232239,
+                    "z": 1.25
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -0.250000536441803,
+                    "z": -1.25
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.5,
+                    "y": -0.2500002980232239,
+                    "z": 1.25
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.5,
+                    "y": -0.250000536441803,
+                    "z": -1.25
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        },
+        {
+            "id": "229c81b0-f5cc-42f8-8cd1-a1a82be30a23",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": -1.0013542175292969,
+                "y": 1.1250882148742676,
+                "z": 1.252960205078125
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.00008280284237116575,
+                "y": -0.7071068286895752,
+                "z": 0.00008280284237116575,
+                "w": 0.7071068286895752
+            },
+            "idOfParent": "",
+            "children": [],
+            "isTrigger": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "Basic - DevTop",
+            "materialName_yneg": "Basic - DevTop",
+            "materialName_x": "Basic - DevSides",
+            "materialName_xneg": "Basic - DevSides",
+            "materialName_z": "Basic - DevSides",
+            "materialName_zneg": "Basic - DevSides",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": -3.251621961593628,
+                    "y": 2.2495617866516115,
+                    "z": 1.252960443496704
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0016118288040161133,
+                    "y": 2.2503230571746828,
+                    "z": 1.252960443496704
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.2516236305236818,
+                    "y": 2.249561309814453,
+                    "z": 1.0029594898223878
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0016123056411743165,
+                    "y": 2.2503225803375246,
+                    "z": 1.0029598474502564
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": -3.251096725463867,
+                    "y": -0.00043952465057373047,
+                    "z": 1.252960205078125
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0010857582092285157,
+                    "y": 0.00032210350036621094,
+                    "z": 1.252960205078125
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.2510972023010256,
+                    "y": -0.00043904781341552734,
+                    "z": 1.0029594898223878
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -0.0010867118835449219,
+                    "y": 0.00032258033752441406,
+                    "z": 1.0029597282409669
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        },
+        {
+            "id": "a398bd10-23ce-458c-ba5d-98cc2bcc6fa5",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": -1.0,
+                "y": 2.125,
+                "z": 0.0
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "idOfParent": "",
+            "children": [],
+            "isTrigger": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "Basic - DevTop",
+            "materialName_yneg": "Basic - DevTop",
+            "materialName_x": "Basic - DevSides",
+            "materialName_xneg": "Basic - DevSides",
+            "materialName_z": "Basic - DevSides",
+            "materialName_zneg": "Basic - DevSides",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 2.25,
+                    "z": 1.0
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 2.25,
+                    "z": -1.0
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": 2.249999761581421,
+                    "z": 1.0
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.250000238418579,
+                    "y": 2.249999761581421,
+                    "z": -1.0
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 1.0
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": -1.0
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": 1.999999761581421,
+                    "z": 1.0
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.250000238418579,
+                    "y": 1.999999761581421,
+                    "z": -1.0
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        },
+        {
+            "id": "243ef808-f761-4e0d-9b86-0dd1ac45fc04",
+            "note": "",
+            "isActive": true,
+            "blockPos": {
+                "x": -1.0,
+                "y": -0.375,
+                "z": 0.0
+            },
+            "blockScale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "blockRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "idOfParent": "",
+            "children": [],
+            "isTrigger": false,
+            "materialColor_y": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_yneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_x": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_xneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_z": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor_zneg": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "materialColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            },
+            "materialName_y": "Basic - DevTop",
+            "materialName_yneg": "Basic - DevTop",
+            "materialName_x": "Basic - DevSides",
+            "materialName_xneg": "Basic - DevSides",
+            "materialName_z": "Basic - DevSides",
+            "materialName_zneg": "Basic - DevSides",
+            "materialName": "",
+            "corner_Y_X_Z": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.25
+                }
+            },
+            "corner_Y_X_Zneg": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.25
+                }
+            },
+            "corner_Y_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -8.940696716308594e-8,
+                    "z": 1.25
+                }
+            },
+            "corner_Y_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -8.940696716308594e-8,
+                    "z": -1.25
+                }
+            },
+            "corner_Yneg_X_Z": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": -0.2500000596046448,
+                    "z": 1.25
+                }
+            },
+            "corner_Yneg_X_Zneg": {
+                "corner_Pos": {
+                    "x": 0.0,
+                    "y": -0.2500000596046448,
+                    "z": -1.25
+                }
+            },
+            "corner_Yneg_Xneg_Z": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -0.2500002682209015,
+                    "z": 1.25
+                }
+            },
+            "corner_Yneg_Xneg_Zneg": {
+                "corner_Pos": {
+                    "x": -3.25,
+                    "y": -0.2500002682209015,
+                    "z": -1.25
+                }
+            },
+            "UVScale": [
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "UVOffset": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            ],
+            "UVRotation": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "events": []
+        }
+    ],
+    "allLevelPosters": [],
+    "allLevelDoors": [],
+    "allLevelBasicItems": [],
+    "allLevelDialogue": [],
+    "allLevelAudioSources": [],
+    "allLevelCounters": [],
+    "allLevelStates": [],
+    "allLevelPaths": [],
+    "allPlayerMovers": [],
+    "allGlobalEntityPointers": [],
+    "allLevelDates": [],
+    "globalEvents": []
+}
