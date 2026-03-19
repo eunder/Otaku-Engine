@@ -28,6 +28,18 @@ https://github.com/westhillapps/UniGif
 
 ---
 
+## Kenny Particles
+License: CC0 / Public Domain
+https://www.kenney.nl/assets/particles
+
+---
+
+## ICSharpCode.SharpZipLib
+License: MIT
+https://github.com/icsharpcode/SharpZipLib
+
+---
+
 ## OpenXR
 License: Apache 2.0
 https://www.khronos.org/openxr/
@@ -45,5 +57,6 @@ The following assets are used in the project but are not included in this reposi
 - VLCForUnity
 - Pixelation
 - FlexibleCelShader
+- Simple Waypoint System
 
 These are governed by the Unity Asset Store EULA.
